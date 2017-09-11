@@ -7,7 +7,6 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File 'C:\work\repos\mgu\mgusdk\frameworks\base\src\main\java\com\bmwgroup\connected\sdk\internal\remoting\InternalTouchCommandConnectionManager.java'" />
-    <option name="FILE_MASK" value="*.java, *.xml" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
