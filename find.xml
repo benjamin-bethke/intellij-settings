@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'C:\work\repos\mgu\mgusdk\frameworks\base\src\main\java\com\bmwgroup\connected\sdk\internal\remoting\InternalTouchCommandConnectionManager.java'" />
-    <option name="defaultScopeName" value="File 'C:\work\repos\mgu\mgusdk\frameworks\base\src\main\java\com\bmwgroup\connected\sdk\internal\remoting\InternalTouchCommandConnectionManager.java'" />
-    <option name="SEARCH_SCOPE" value="File 'C:\work\repos\mgu\mgusdk\frameworks\base\src\main\java\com\bmwgroup\connected\sdk\internal\remoting\InternalTouchCommandConnectionManager.java'" />
+    <option name="customScope" value="Directory 'C:\work\repos\mgu\mgusdk\frameworks\touchcommand-adapter'" />
+    <option name="defaultScopeName" value="Directory 'C:\work\repos\mgu\mgusdk\frameworks\touchcommand-adapter'" />
+    <option name="SEARCH_SCOPE" value="Directory 'C:\work\repos\mgu\mgusdk\frameworks\touchcommand-adapter'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
