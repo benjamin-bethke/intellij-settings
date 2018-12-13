@@ -1,0 +1,14 @@
+<application>
+  <component name="PowerModeII">
+    <option name="customBamImageFolder" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Android Studio" />
+    <option name="customFlameImageFolder" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Android Studio" />
+    <option name="enabled" value="false" />
+    <option name="flamesEnabled" value="false" />
+    <option name="isBamEnabled" value="false" />
+    <option name="isCaretAction" value="false" />
+    <option name="isPowerIndicatorEnabled" value="false" />
+    <option name="shakeEnabled" value="false" />
+    <option name="soundsFolder" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Android Studio" />
+    <option name="sparksEnabled" value="false" />
+  </component>
+</application>
