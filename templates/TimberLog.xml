@@ -4,7 +4,6 @@
     <variable name="args" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="timr" value="Timber.d(&quot;$METHOD_NAME$() returned: &quot; +  $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">

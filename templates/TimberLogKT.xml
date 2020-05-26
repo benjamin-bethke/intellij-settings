@@ -1,7 +1,13 @@
 <templateSet group="TimberLogKT">
-  <template name="timm" value="Timber.d(&quot;$METHOD_NAME$: $content$&quot;)" description="Timber.d(String)" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="methodName()" defaultValue="fsdaf" alwaysStopAt="false" />
+  <template name="timd" value="Timber.d(&quot;$METHOD_NAME$: $content$&quot;)" description="Timber.d(String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timm" value="Timber.d($TEXT$)" description="Use in first line of method. Timber.d with parameters" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [${' + it + '}]'}.join(', ') + '\&quot;'&quot;, functionParameters())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
