@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="webp" type="Image" />
       <mapping pattern="gist" type="PLAIN_TEXT" />
+      <mapping ext="p7b" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
